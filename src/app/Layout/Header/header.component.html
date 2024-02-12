@@ -1,0 +1,21 @@
+<header class="header">
+    <nav class="nav container">
+        <div class="logo">
+            <a [routerLink]="''">
+                <img src="../../../assets/logo.png" alt="headerImage" />
+            </a>
+            <ul class="routingLink">
+                <li><a [routerLink]="'/products'">Products</a></li>
+                <li><a [routerLink]="'/collections'">Collections</a></li>
+                <li><a [routerLink]="'/about'">About</a></li>
+                <li><a [routerLink]="'/contactus'">Contact us</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <app-button [name]="'loginButton'" (_onClick)="_onLoginClick($event)">
+                login
+            </app-button>
+        </div>
+    </nav>
+</header>
