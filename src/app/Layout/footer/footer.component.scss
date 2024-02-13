@@ -17,6 +17,10 @@ footer {
             justify-content: space-between;
 
             .shop_nev {
+                h3 {
+                    font-weight: 500;
+                }
+
                 ul {
                     list-style: none;
                     padding: 0;
@@ -27,7 +31,6 @@ footer {
                         a {
                             text-decoration: none;
                             color: #000000;
-                            font-weight: 500;
 
                             &:hover {
                                 border-bottom: 1px solid #ddd;
